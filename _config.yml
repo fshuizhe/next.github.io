@@ -318,7 +318,7 @@ post_meta:
 post_wordcount:
   item_text: true
   wordcount: true
-  min2read: false
+  min2read: true
   separated_meta: true
 
 # Wechat Subscriber
@@ -382,10 +382,10 @@ han: false
 disqus:
   enable: false
   shortname:
-  count: true
+  count: false
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
-  hide: false
+  hide: true
 
 # <wildfire>
 wildfire:
@@ -523,9 +523,9 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: ture
+  app_id: cWN9cKz8wVkmHd6oAWvGrYjl-gzGzoHsz
+  app_key: OmHlxhMDrR7GEi1YWhvnuUVA
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
