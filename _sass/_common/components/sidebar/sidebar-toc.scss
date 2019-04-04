@@ -4,7 +4,9 @@
   color: $grey-dim;
 }
 
-.post-toc-wrap { overflow: hidden; }
+.post-toc-wrap {
+  overflow-y: auto;
+}
 
 .post-toc { overflow: auto; }
 
@@ -31,7 +33,7 @@
 }
 
 .post-toc .nav-item {
-  overflow: hidden;
+  overflow-y: auto;
   text-overflow: ellipsis;
   white-space: if(not jekyll-config('toc.wrap'), nowrap, null);
   line-height: 1.8;

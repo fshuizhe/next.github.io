@@ -14,8 +14,8 @@ date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: www.jiluzhe.net
-baseurl: /
+url: 
+baseurl: 
 permalink: pretty
 
 # Pagination
@@ -87,7 +87,7 @@ keywords: "记录, 分类, 剑侠, 思考"
 rss:
 
 # Specify the date when the site was setup
-since: 2012
+since: 2011
 
 # icon between year and author @Footer
 authoricon: heart
@@ -118,10 +118,11 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
-  #about: /about/
-  archives: /archives/
+  categories: /categories/
   tags: /tags/
+  archives: /archives/
+  about: /about/
+  comment: https://support.qq.com/products/57508
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -142,6 +143,7 @@ menu_icons:
   archives: archive
   sitemap: sitemap
   commonweal: heartbeat
+  comment: comment
 
 
 
@@ -213,8 +215,8 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
-  #LinkLabel: Link
+social:
+  留言板: https://support.qq.com/product/57508
 
 
 # Social Links Icons
@@ -229,6 +231,7 @@ social_icons:
   GitHub: github
   Twitter: twitter
   Weibo: weibo
+  留言板: comment
 
 
 # Sidebar Avatar
@@ -370,7 +373,7 @@ mathjax:
 han: false
 
 # Swiftype Search API Key
-#swiftype_key:
+swiftype_key: 581SyQxiEtT2WrEyPhSE
 
 # Baidu Analytics ID
 #baidu_analytics:
