@@ -14,8 +14,8 @@ date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: www.jiluzhe.net
-baseurl: /
+url: 
+baseurl: 
 permalink: pretty
 
 # Pagination
@@ -87,7 +87,7 @@ keywords: "记录, 分类, 剑侠, 思考"
 rss:
 
 # Specify the date when the site was setup
-since: 2012
+since: 2011
 
 # icon between year and author @Footer
 authoricon: heart
@@ -118,10 +118,10 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
-  #about: /about/
-  archives: /archives/
+  categories: /categories/
   tags: /tags/
+  archives: /archives/
+  about: /about/
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
