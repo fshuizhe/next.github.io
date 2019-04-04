@@ -31,7 +31,8 @@
 }
 
 .post-toc .nav-item {
-  overflow: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
   text-overflow: ellipsis;
   white-space: if(not jekyll-config('toc.wrap'), nowrap, null);
   line-height: 1.8;
