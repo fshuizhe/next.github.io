@@ -67,6 +67,11 @@
 {% endif %}
 <link href="{{ font_awesome_uri }}" rel="stylesheet" type="text/css" />
 
+{% if site.vendors.iconfont %}
+  {% assign font_iconfont_uri = site.vendors.iconfont %}
+{% endif %}
+<link href="{{ font_iconfont_uri }}" rel="stylesheet" type="text/css" />
+
 <link href="{{ site.css | relative_url }}/main.css?v={{ site.version }}" rel="stylesheet" type="text/css" />
 
 {% if page.keywords %}

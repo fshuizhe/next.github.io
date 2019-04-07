@@ -691,6 +691,10 @@ vendors:
   # See: http://fontawesome.io/
   fontawesome:
 
+  # 阿里图标库
+  # See: https://www.iconfont.cn/
+  iconfont: //at.alicdn.com/t/font_1128645_auqtxb57isn.css
+
   # Internal version: 1
   # https://www.algolia.com
   algolia_instant_js:

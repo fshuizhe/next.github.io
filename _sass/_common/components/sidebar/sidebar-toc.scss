@@ -4,9 +4,11 @@
   color: $grey-dim;
 }
 
+/*
 .post-toc-wrap {
   overflow-y: auto;
 }
+经测试，会造成横轴方向出现滚动条 */
 
 .post-toc { overflow: auto; }
 
@@ -33,7 +35,6 @@
 }
 
 .post-toc .nav-item {
-  overflow-y: auto;
   text-overflow: ellipsis;
   white-space: if(not jekyll-config('toc.wrap'), nowrap, null);
   line-height: 1.8;
