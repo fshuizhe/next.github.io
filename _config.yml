@@ -180,9 +180,9 @@ font:
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
   # Fallback to `global` font settings.
-  headings: 
+  headings: "Noto Serif SC", Georgia, serif
     external: true
-    family: 'Noto Serif SC', serif
+    family: simsun
 
   # Font settings for posts
   # Fallback to `global` font settings.
