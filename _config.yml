@@ -284,12 +284,15 @@ sidebar:
 
 
 # Blog rolls
-#links_title: Links
-#links_layout: block
-#links_layout: inline
-#links:
-  #Title: http://example.com/
-
+links_title: 友情链接
+links_layout: block
+links_layout: inline
+links:
+  索梦部落: http://syxv.net/
+  风住街: http://www.liusu.me/
+  北漂青年: http://www.bpqn.com/
+  萌月: http://www.moeyue.com/
+  马力: http://www.kun.la/
 
 # ---------------------------------------------------------------
 # Post Settings
