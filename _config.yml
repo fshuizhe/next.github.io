@@ -180,9 +180,9 @@ font:
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
   # Fallback to `global` font settings.
-  headings: 'Noto Serif SC', serif
+  headings: 
     external: true
-    family:
+    family: 'Noto Serif SC', serif
 
   # Font settings for posts
   # Fallback to `global` font settings.
@@ -285,7 +285,7 @@ sidebar:
 
 # Blog rolls
 links_title: 友情链接
-links_layout: block
+#links_layout: block
 links_layout: inline
 links:
   索梦部落: http://syxv.net/
