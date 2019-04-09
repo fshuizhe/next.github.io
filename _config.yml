@@ -180,7 +180,7 @@ font:
 
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
   # Fallback to `global` font settings.
-  headings:
+  headings: 'Noto Serif SC', serif
     external: true
     family:
 
@@ -293,6 +293,9 @@ links:
   北漂青年: http://www.bpqn.com/
   萌月: http://www.moeyue.com/
   马力: http://www.kun.la/
+  Fooleap: https://blog.fooleap.org/
+  1900: http://1900.live/
+
 
 # ---------------------------------------------------------------
 # Post Settings
@@ -379,7 +382,7 @@ han: false
 swiftype_key: 581SyQxiEtT2WrEyPhSE
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 5247945cd627a4ee7a6f62c8a9f2b37a
 
 # Duoshuo ShortName
 #duoshuo_shortname:
