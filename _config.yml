@@ -182,7 +182,7 @@ font:
   # Fallback to `global` font settings.
   headings: Noto Serif SC
     external: true
-    family: simsun
+    family:
 
   # Font settings for posts
   # Fallback to `global` font settings.
