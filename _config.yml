@@ -699,7 +699,7 @@ vendors:
 
   # 阿里图标库
   # See: https://www.iconfont.cn/
-  iconfont: //at.alicdn.com/t/font_1128645_auqtxb57isn.css
+  iconfont: //at.alicdn.com/t/font_1128645_auqtxb57isn.js
 
   # Internal version: 1
   # https://www.algolia.com
