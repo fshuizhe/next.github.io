@@ -132,7 +132,7 @@ $table-content-alignment        : left;
 $table-content-vertical         : middle;
 $table-th-font-weight           : 700;
 $table-cell-padding             : 8px;
-$table-cell-border-right-color  : $gainsboro;
+$table-cell-border-right-color  : $gray-lighter;
 $table-cell-border-bottom-color : $gray-lighter;
 $table-row-odd-bg-color         : #f9f9f9;
 $table-row-hover-bg-color       : $whitesmoke;
@@ -238,7 +238,7 @@ $menu-link-hover-border         : $black-deep;
 
 // Posts Expand
 // --------------------------------------------------
-$posts-expand-title-font-weight : $font-weight-normal;
+$posts-expand-title-font-weight : $font-weight-bloder;
 $post-copyright : (
   margin: 2em 0 0,
   padding: .5em 1em,
