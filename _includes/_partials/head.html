@@ -70,7 +70,7 @@
 {% if site.vendors.iconfont %}
   {% assign font_iconfont_uri = site.vendors.iconfont %}
 {% endif %}
-<script src="{{ font_iconfont_uri }}"></script>
+<link href="{{ font_iconfont_uri }}" rel="stylesheet" type="text/css" />
 
 <link href="{{ site.css | relative_url }}/main.css?v={{ site.version }}" rel="stylesheet" type="text/css" />
 
