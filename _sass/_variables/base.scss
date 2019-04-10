@@ -16,6 +16,7 @@ $grey         : #bbb;
 $grey-dark    : #999;
 $grey-dim     : #666;
 $black-light  : #555;
+$black-nomal  : #404040;
 $black-dim    : #333;
 $black-deep   : #222;
 $red          : #ff2a2a;
@@ -31,7 +32,7 @@ $orange       : #fc6423;
 // --------------------------------------------------
 
 // Global text color on <body>
-$text-color                   : $black-light;
+$text-color                   : $black-nomal;
 
 // Global link color.
 $link-color                   : $black-light;
