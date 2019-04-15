@@ -216,7 +216,7 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
-  留言板: https://support.qq.com/product/57508
+  #留言板: https://support.qq.com/product/57508
 
 
 # Social Links Icons
@@ -232,6 +232,7 @@ social_icons:
   Twitter: twitter
   Weibo: weibo
   留言板: comment
+  公众号: weixin
 
 
 # Sidebar Avatar
