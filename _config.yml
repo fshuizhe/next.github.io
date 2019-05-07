@@ -122,7 +122,7 @@ menu:
   tags: /tags/
   archives: /archives/
   about: /about/
-  comment: https://support.qq.com/products/57508
+  #comment: https://support.qq.com/products/57508
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -383,7 +383,7 @@ mathjax:
 han: false
 
 # Swiftype Search API Key
-swiftype_key: 581SyQxiEtT2WrEyPhSE
+# swiftype_key: 581SyQxiEtT2WrEyPhSE
 
 # Baidu Analytics ID
 baidu_analytics: 3993de567f68e2c510904912bdf358f1
@@ -599,7 +599,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: ture
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
