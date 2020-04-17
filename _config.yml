@@ -270,9 +270,9 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-  display: post
+  #display: post
   #display: always
-  #display: hide
+  display: hide
   #display: remove
 
   # Sidebar offset from top menubar in pixels.
@@ -293,14 +293,14 @@ links_layout: inline
 links:
   索梦部落: http://syxv.net/
   风住街: http://www.liusu.me/
-  Deserts: https://deserts.io/
-  北漂青年: http://www.bpqn.com/
-  萌月: http://www.moeyue.com/
-  马力: http://www.kun.la/
-  Fooleap: https://blog.fooleap.org/
+  #Deserts: https://deserts.io/
+  #北漂青年: http://www.bpqn.com/
+  #萌月: http://www.moeyue.com/
+  #马力: http://www.kun.la/
+  #Fooleap: https://blog.fooleap.org/
   甜欣屋: https://tcxx.info/
   Neverland: https://type.cyhsu.xyz/
-  两个有意思的: https://dxq520.cn/
+  #两个有意思的: https://dxq520.cn/
 
 
 # ---------------------------------------------------------------
