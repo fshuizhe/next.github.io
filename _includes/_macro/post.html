@@ -350,6 +350,17 @@
     </div>
 
     <footer class="post-footer">
+      {% unless is_index %}
+        {% if page.wx_commnet %}
+          <div class="wxcomment">
+            <hr>
+            微信扫一扫，发表对本文的评论
+            <img src="{% page.wx_commnet %}" alt="本文的微信二维码">
+          </div>
+        {% endif %}
+      {% endunless %}
+
+
       {% if post.tags and post.tags.size != 0 and is_index == nil or is_index == false %}
         <div class="post-tags">
           {% for tag in post.tags %}
