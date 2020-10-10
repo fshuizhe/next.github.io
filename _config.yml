@@ -14,7 +14,8 @@ date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url: https://www.jiluzhe.net
+#url: https://www.jiluzhe.net
+url: https://fshuizhe.github.io
 # baseurl: /blog
 permalink: pretty
 
@@ -34,10 +35,10 @@ paginate: 10
 # Handling Reading
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "README_en.md", "vendor"]
 
-# Separator
+# Separator 摘要分割符
 #excerpt_separator: <!-- more -->
 
-# Code Highlighter
+# Code Highlighter 代码高亮
 ## 'pygments' is unsupported on GitHub Pages now.
 highlighter: rouge
 highlight:
@@ -49,7 +50,7 @@ markdown: kramdown
 kramdown:
     input: GFM
 
-# Default Attributes
+# Default Attributes 默认属性
 ## Docs: https://jekyllrb.com/docs/configuration/#front-matter-defaults
 defaults:
   -
@@ -61,11 +62,11 @@ defaults:
       comments: false
       author: "记录者NET"
 
-# Atom feed
+# Atom feed RSS阅读器
 feed:
   path: atom.xml
 
-# Plugins
+# Plugins 插件
 ## Docs: https://help.github.com/articles/configuring-jekyll-plugins/
 plugins:
  - jemoji
@@ -76,14 +77,14 @@ plugins:
 # Site Information Settings
 # ---------------------------------------------------------------
 
-# Put your favicon.ico into `assets/` directory.
+# Put your favicon.ico into `assets/` directory. 网页图标
 favicon: /assets/favicon.ico
 
-# Set default keywords (Use a comma to separate)
+# Set default keywords (Use a comma to separate) 关键字
 keywords: "记录, 分类, 更深理解世界, 思考"
 
 # Set rss to false to disable feed link.
-# Leave rss as empty to use site's feed link.
+# Leave rss as empty to use site's feed link. 留空应用网站默认RSS设置
 # Set rss to specific value if you have burned your feed already.
 rss:
 
@@ -612,7 +613,7 @@ local_search:
 # External URL with BASE64 encrypt & decrypt
 # Usage: {% exturl text url "title" %}
 # Alias: {% extlink text url "title" %}
-exturl: false
+exturl: ture
 
 
 #! ---------------------------------------------------------------
