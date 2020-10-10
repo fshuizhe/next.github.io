@@ -1,28 +1,9 @@
-# NexT
+# 记录者NET 博客
 
-> 精于心，简于形
+写博客可以追溯到2005年，这个久远的年份让人神往。 网站的题记：记录的力量，是指记录本身蕴藏的能量，一件简单的事情，可以达成强大的力量。
 
-NexT 是由 [Hexo NexT](https://github.com/iissnan/hexo-theme-next) 移植而来的 Jekyll 主题。<!--commit: f951075d9b739d26b42472431995fa68d08796aa-->
+如需联系我，请给我发邮件：admin@jiluzhe.net。也可以在微信公众平台搜索「寒空明月」(id: moonInColdSky) 找到我。
 
-<a href="http://simpleyyt.github.io/jekyll-theme-next/" target="_blank">在线预览 Preview</a> | <a href="http://simpleyyt.com" target="_blank">Yitao's Blog</a> | <a href="http://theme-next.simpleyyt.com" target="_blank">NexT 使用文档</a> |  [English Documentation](README.en.md)
+静态博客，难以留言，请到我的微信公众号留言。 微信扫一扫，关注我的公众号：
 
-[![Join the chat at https://gitter.im/simpleyyt/jekyll-theme-next](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/jekyll-theme-next/lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-![NexT Schemes](http://iissnan.com/nexus/next/next-schemes.jpg)
-
-
-## 浏览器支持 Browser support
-
-![Browser support](http://iissnan.com/nexus/next/browser-support.png)
-
-
-## 贡献 Contributing
-
-欢迎提交问题与需求，修复代码。
-
-
-## 开发 Development
-
-NexT 主旨在于简洁优雅且易于使用，所以首先要尽量确保 NexT 的简洁易用性。
-
-NexT is built for easily use with elegant appearance. First things first, always keep things simple.
+![微信公众号二维码](http://p.qpic.cn/pic_wework/1948211503/323439263f810cefa77c8b582e299bcc3f5d64af741bfd57/0)
