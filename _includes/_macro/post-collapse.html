@@ -1,4 +1,4 @@
-{% comment %} post-collapse(post) {% endcomment %}
+{% comment %} post-collapse(post)用于归档、类别和标签的文章列表页 {% endcomment %}
   <article class="post post-type-{{ post.type | default: 'normal' }}" itemscope itemtype="http://schema.org/Article" {% if route %}route="{{ route }}"{% endif %}>
     <header class="post-header">
 
