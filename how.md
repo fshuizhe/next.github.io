@@ -16,3 +16,13 @@
 ### _helper文件夹
 应该是一些辅助文件。
 
+删除根下index:
+<section id="posts" class="posts-expand">
+  {% for post in posts %}
+    {% assign is_index = true %}
+    {% include _macro/post.html %}
+  {% endfor %}
+</section>
+
+{% include _partials/pagination.html %}
+

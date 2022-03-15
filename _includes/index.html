@@ -1,10 +1,12 @@
 {% assign posts = site.posts %}
 {% if site.paginate > 0 %}{% assign posts = paginator.posts %}{% endif %}
 
-<section id="posts" class="posts-expand">
-  {% for post in posts %}
-    {% assign is_index = true %}
-    {% include _macro/post.html %}
+<section id="posts" class="posts-collapse">
+  {% assign documents = site.documents %}
+  {% for doc in documents reversed %}
+    <h2 class="post-title"><a class="post-title-link" href="{{ doc.url }}">
+      {{ doc.title }} - <button>{{ doc.collection}}</button>
+    </a></h2>
   {% endfor %}
 </section>
 
